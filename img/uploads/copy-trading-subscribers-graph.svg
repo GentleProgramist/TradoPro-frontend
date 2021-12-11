@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="763" height="594" viewBox="0 0 763 594">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1.066" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d9534f"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+  </defs>
+  <g id="copy-trading-subscribers-graph" transform="translate(-22401 -4483)">
+    <g id="copy-trading-subscribers-graph-2" data-name="copy-trading-subscribers-graph" transform="translate(440 504)">
+      <g id="Image_4" data-name="Image 4" transform="translate(21961 3979)" fill="#fff" stroke="#dadada" stroke-width="1">
+        <rect width="763" height="472" stroke="none"/>
+        <rect x="0.5" y="0.5" width="762" height="471" fill="none"/>
+      </g>
+      <text id="Copy_Trading_Subscribers" data-name="Copy Trading Subscribers" transform="translate(22016 4031)" fill="#2b5468" font-size="30" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Copy Trading Subscribers</tspan></text>
+      <text id="_19945" data-name="19945" transform="translate(22016 4095)" fill="#464646" font-size="49" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">19945</tspan></text>
+      <text id="_-54_-0.27_Subscribers_Last_30_Days" data-name="-54 (-0.27%) Subscribers Last 30 Days" transform="translate(22422 4124)" fill="#d9534f" font-size="16" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">-54</tspan><tspan y="0" xml:space="preserve" fill="#ababab"> (</tspan><tspan y="0">-0.27%</tspan><tspan y="0" fill="#ababab">) </tspan><tspan y="0" fill="#282828">Subscribers Last 30 Days</tspan></text>
+      <text id="_0" data-name="0" transform="translate(21979.572 4380.061)" fill="#7c828a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="41.523" y="13">0</tspan></text>
+      <text id="_250" data-name="250" transform="translate(21979.572 4287.586)" fill="#7c828a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="28.586" y="13">250</tspan></text>
+      <text id="_500" data-name="500" transform="translate(21979.572 4186.13)" fill="#7c828a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="28.586" y="13">500</tspan></text>
+      <text id="S" transform="translate(22365.246 4410.202)" fill="#7c828a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="17.788" y="13">JUL</tspan></text>
+      <text id="S-2" data-name="S" transform="translate(22584.98 4410.202)" fill="#7c828a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="14.284" y="13">NOV</tspan></text>
+      <text id="S-3" data-name="S" transform="translate(22638.729 4410.202)" fill="#7c828a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="15.918" y="13">DEC</tspan></text>
+      <text id="S-4" data-name="S" transform="translate(22310.65 4410.202)" fill="#7c828a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="16.123" y="13">JUN</tspan></text>
+      <text id="S-5" data-name="S" transform="translate(22529.041 4410.202)" fill="#7c828a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="15.494" y="13">OCT</tspan></text>
+      <text id="F" transform="translate(22256.051 4410.202)" fill="#7c828a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="14.711" y="13">MAY</tspan></text>
+      <text id="F-2" data-name="F" transform="translate(22474.441 4410.202)" fill="#7c828a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="17.292" y="13">SEP</tspan></text>
+      <text id="T" transform="translate(22201.455 4410.202)" fill="#7c828a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="16.056" y="13">APR</tspan></text>
+      <text id="T-2" data-name="T" transform="translate(22419.844 4410.202)" fill="#7c828a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="14.884" y="13">AUG</tspan></text>
+      <text id="W" transform="translate(22152.68 4410.202)" fill="#7c828a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="11.149" y="13">MAR</tspan></text>
+      <text id="T-3" data-name="T" transform="translate(22098.107 4410.202)" fill="#7c828a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="17.471" y="13">FEB</tspan></text>
+      <text id="M" transform="translate(22042.277 4410.202)" fill="#7c828a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="16.522" y="13">JAN</tspan></text>
+      <path id="Area_2" d="M0,77.645s56.486,45.71,112.037,45.71S167.587,0,223.138,0s55.55,57.515,111.1,57.515c53.493,0,53.493,186.923,109.043,186.923s55.55-73.331,111.1-73.331,111.1,83.4,111.1,83.4v53.2H.936Z" transform="translate(22042.277 4109.708)" opacity="0.3" fill="url(#linear-gradient)"/>
+    </g>
+    <text id="Subscribers_within_last_30_days_-_" data-name="Subscribers within last 30 days (=/- %)" transform="translate(22855 4597)" fill="#282828" font-size="16" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Subscribers within last 30 days (=/- %)</tspan></text>
+    <g id="Rectangle_328" data-name="Rectangle 328" transform="translate(22401 4955)" fill="#fff" stroke="#dadada" stroke-width="1">
+      <rect width="763" height="122" stroke="none"/>
+      <rect x="0.5" y="0.5" width="762" height="121" fill="none"/>
+    </g>
+    <text id="Copy_Trades" data-name="Copy Trades" transform="translate(22541 5054)" fill="#ababab" font-size="18" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Copy Trades</tspan></text>
+    <text id="Profit" transform="translate(22951 5054)" fill="#ababab" font-size="18" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Profit</tspan></text>
+    <text id="_2456" data-name="2456" transform="translate(22535 5019)" fill="#464646" font-size="50" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">2456</tspan></text>
+    <text id="_56_" data-name="56%" transform="translate(22924 5019)" fill="#6eaf0f" font-size="50" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">56%</tspan></text>
+    <line id="Line_31" data-name="Line 31" y2="93" transform="translate(22782.5 4970.5)" fill="none" stroke="#dadada" stroke-width="1"/>
+  </g>
+</svg>

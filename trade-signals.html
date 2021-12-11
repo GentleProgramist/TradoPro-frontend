@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="author" content="TraderPro">
+	<meta name="keywords"
+		content="Bitcoin, Cryptocurrency, Copy Trading, Trading Alert, Trading Signal, Algo Trading, Algo Trade, Signal Trade, Auto Trade, Social Trading, Trader Pro, Traderpro, Cryptocurrency market, Telegram Signals, professional traders, why trade alone, trade with professionals, one trade terminal for all your crypto needs, crypto currencies, digital assets, digital asset">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="shortcut icon" href="img/icons/icon-48x48.png" />
+
+	<link rel="canonical" href="https://demo-basic.adminkit.io/" />
+
+	<title>TraderPro | View Copy Trader Signals</title>
+
+	<link href="css/app.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/custom.css">
+
+
+	<style>
+		.table>tbody>tr>td:first-child,
+		.table>tbody>tr>th:first-child {
+			min-width: 60px !important;
+		}
+
+		@media screen and (min-width: 250px) and (max-width: 768px) {
+			th:first-child,
+			td:first-child {
+				width: 50px;
+				overflow: hidden;
+			}
+		}
+
+		@media screen and (min-width: 640px) and (max-width: 1024px) {
+
+			.table>tbody>tr>td:first-child,
+			.table>tbody>tr>th:first-child {
+				max-width: 50px !important;
+				min-width: 50px !important;
+			}
+		}
+	</style>
+</head>
+
+<body>
+
+	<div class="wrapper">
+		<nav id="sidebar" class="sidebar js-sidebar">
+			<div class="sidebar-content js-simplebar">
+				<a class="sidebar-brand" href="index.html">
+					<span class="align-middle">
+						<img src="img/logo.svg" alt="" class="img-fluid logo">
+					</span>
+				</a>
+
+				<div class="scrollBox">
+					<nav>
+						<ul class="mt-5">
+							<li>
+								<a href="index.html">
+									<img src="img/favourite-icon-dark.svg" alt="" class="img-fluid menu-icon">
+									Favourites
+								</a>
+							</li>
+							<li class="sub-menu">
+								<a href="javascript:void(0);">
+									<img src="img/conpytrading-icon-dark.svg" alt="" class="img-fluid menu-icon">
+									Copy Trading
+									<span class="float-right">
+										<img src="img/uploads/arrow-down.svg" alt="" class="img-fluid">
+									</span>
+								</a>
+								<ul>
+									<li><a href='join-copy-trader.html'>Join as Copy Trader</a></li>
+									<li><a href='viewcopy-trader-list.html'>View Copy Traders</a></li>
+									<li><a href='viewcopytrader-signal.html'>View Copy Signal</a>
+									</li>
+								</ul>
+							</li>
+							<li class="sub-menu">
+								<a href="javascript:void(0);">
+									<img src="img/signalprovider-icon-dark.svg" alt="" class="img-fluid menu-icon">
+									Signal Provider
+									<span class="float-right">
+										<img src="img/uploads/arrow-down.svg" alt="" class="img-fluid">
+									</span>
+								</a>
+								<ul>
+									<li><a href='join-signal-trader.html'>Join as Signal Provider</a></li>
+									<li><a href="view-signal-provider.html">View Signal Provider</a></li>
+									<li><a href="view-provider-signal.html">View Provider Signal</a></li>
+									<li><a href="create-signal.html">Create New Signal</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="price-comparison.html">
+									<img src="img/pricecomparison-icon-dark.svg" alt="" class="img-fluid menu-icon">
+									Price Comparison
+								</a>
+							</li>
+							<li>
+								<a href="trade-terminal.html">
+									<img src="img/tradeterminal-icon-dark.svg" alt="" class="img-fluid menu-icon">
+									Trade Terminal
+								</a>
+							</li>
+							<li>
+								<a href="portfolio-performance.html">
+									<img src="img/portfolioperformance-icon-dark.svg" alt=""
+										class="img-fluid menu-icon">
+									Portfolio Performance
+								</a>
+							</li>
+							<li class="sub-menu">
+								<a href="javascript:void(0);" class="active">
+									<img src="img/reports.svg" alt="" class="img-fluid menu-icon">
+									Reports
+									<span class="float-right">
+										<img src="img/uploads/arrow-down.svg" alt="" class="img-fluid">
+									</span>
+								</a>
+								<ul>
+									<li><a class="active" href="trade-signals.html">Trade Signals</a></li>
+									<li><a href="my-trades.html">My Trades</a></li>
+								</ul>
+							</li>
+							<li class="sub-menu">
+								<a href="javascript:void(0);">
+									<img src="img/exchangeaccount-icon-dark.svg" alt="" class="img-fluid menu-icon">
+									Exchange Account
+									<span class="float-right">
+										<img src="img/uploads/arrow-down.svg" alt="" class="img-fluid">
+									</span>
+								</a>
+								<ul>
+									<li><a href="exchange-account.html">Update Account Details</a></li>
+								</ul>
+							</li>
+						</ul>
+					</nav>
+				</div>
+
+				<!-- <p class="text-white ps-4 mt-5">
+					TraderPro v1.0
+				</p> -->
+			</div>
+		</nav>
+
+		<div class="main">
+			<nav class="navbar navbar-expand navbar-light navbar-bg">
+				<a class="sidebar-toggle js-sidebar-toggle">
+					<i class="hamburger align-self-center"></i>
+				</a>
+				<div class="form-group has-search search-main-bar d-none d-sm-inline-block">
+					<span class="fa fa-search form-control-feedback">
+						<img src="img/uploads/search-icon.svg" alt="" class="img-fluid">
+					</span>
+					<input type="text" class="form-control text-center" placeholder="Search TraderPro">
+				</div>
+				<div class="navbar-collapse collapse">
+					<ul class="navbar-nav navbar-align">
+						<li class="nav-item dropdown">
+							<a class="nav-icon dropdown-toggle" href="#" id="alertsDropdown" data-bs-toggle="dropdown">
+								<div class="position-relative">
+									<img src="img/uploads/notification.svg" alt="" class="img-fluid">
+									<span class="indicator">4</span>
+								</div>
+							</a>
+							<div class="dropdown-menu dropdown-menu-lg dropdown-menu-end py-0"
+								aria-labelledby="alertsDropdown">
+								<div class="dropdown-menu-header">
+									4 New Notifications
+								</div>
+								<div class="list-group">
+									<a href="#" class="list-group-item">
+										<div class="row g-0 align-items-center">
+											<div class="col-2">
+												<i class="text-danger" data-feather="alert-circle"></i>
+											</div>
+											<div class="col-10">
+												<div class="text-dark">Update completed</div>
+												<div class="text-muted small mt-1">Restart server 12 to complete the
+													update.</div>
+												<div class="text-muted small mt-1">30m ago</div>
+											</div>
+										</div>
+									</a>
+									<a href="#" class="list-group-item">
+										<div class="row g-0 align-items-center">
+											<div class="col-2">
+												<i class="text-warning" data-feather="bell"></i>
+											</div>
+											<div class="col-10">
+												<div class="text-dark">Lorem ipsum</div>
+												<div class="text-muted small mt-1">Aliquam ex eros, imperdiet vulputate
+													hendrerit et.</div>
+												<div class="text-muted small mt-1">2h ago</div>
+											</div>
+										</div>
+									</a>
+									<a href="#" class="list-group-item">
+										<div class="row g-0 align-items-center">
+											<div class="col-2">
+												<i class="text-primary" data-feather="home"></i>
+											</div>
+											<div class="col-10">
+												<div class="text-dark">Login from 192.186.1.8</div>
+												<div class="text-muted small mt-1">5h ago</div>
+											</div>
+										</div>
+									</a>
+									<a href="#" class="list-group-item">
+										<div class="row g-0 align-items-center">
+											<div class="col-2">
+												<i class="text-success" data-feather="user-plus"></i>
+											</div>
+											<div class="col-10">
+												<div class="text-dark">New connection</div>
+												<div class="text-muted small mt-1">Christina accepted your request.
+												</div>
+												<div class="text-muted small mt-1">14h ago</div>
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class="dropdown-menu-footer">
+									<a href="#" class="text-muted">Show all notifications</a>
+								</div>
+							</div>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-icon dropdown-toggle" href="#" id="messagesDropdown"
+								data-bs-toggle="dropdown">
+								<div class="position-relative">
+									<img src="img/uploads/message.svg" alt="" class="img-fluid">
+								</div>
+							</a>
+							<div class="dropdown-menu dropdown-menu-lg dropdown-menu-end py-0"
+								aria-labelledby="messagesDropdown">
+								<div class="dropdown-menu-header">
+									<div class="position-relative">
+										4 New Messages
+									</div>
+								</div>
+								<div class="list-group">
+									<a href="#" class="list-group-item">
+										<div class="row g-0 align-items-center">
+											<div class="col-2">
+												<img src="img/avatars/avatar-5.jpg"
+													class="avatar img-fluid rounded-circle" alt="Vanessa Tucker">
+											</div>
+											<div class="col-10 ps-2">
+												<div class="text-dark">Vanessa Tucker</div>
+												<div class="text-muted small mt-1">Nam pretium turpis et arcu. Duis arcu
+													tortor.</div>
+												<div class="text-muted small mt-1">15m ago</div>
+											</div>
+										</div>
+									</a>
+									<a href="#" class="list-group-item">
+										<div class="row g-0 align-items-center">
+											<div class="col-2">
+												<img src="img/avatars/avatar-2.jpg"
+													class="avatar img-fluid rounded-circle" alt="William Harris">
+											</div>
+											<div class="col-10 ps-2">
+												<div class="text-dark">William Harris</div>
+												<div class="text-muted small mt-1">Curabitur ligula sapien euismod
+													vitae.</div>
+												<div class="text-muted small mt-1">2h ago</div>
+											</div>
+										</div>
+									</a>
+									<a href="#" class="list-group-item">
+										<div class="row g-0 align-items-center">
+											<div class="col-2">
+												<img src="img/avatars/avatar-4.jpg"
+													class="avatar img-fluid rounded-circle" alt="Christina Mason">
+											</div>
+											<div class="col-10 ps-2">
+												<div class="text-dark">Christina Mason</div>
+												<div class="text-muted small mt-1">Pellentesque auctor neque nec urna.
+												</div>
+												<div class="text-muted small mt-1">4h ago</div>
+											</div>
+										</div>
+									</a>
+									<a href="#" class="list-group-item">
+										<div class="row g-0 align-items-center">
+											<div class="col-2">
+												<img src="img/avatars/avatar-3.jpg"
+													class="avatar img-fluid rounded-circle" alt="Sharon Lessman">
+											</div>
+											<div class="col-10 ps-2">
+												<div class="text-dark">Sharon Lessman</div>
+												<div class="text-muted small mt-1">Aenean tellus metus, bibendum sed,
+													posuere ac, mattis non.</div>
+												<div class="text-muted small mt-1">5h ago</div>
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class="dropdown-menu-footer">
+									<a href="#" class="text-muted">Show all messages</a>
+								</div>
+							</div>
+						</li>
+						<li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#"
+                                data-bs-toggle="dropdown">
+                                <img src="img/uploads/user.svg" class="img-fluid" alt="User pic" />
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-end">
+                                <a class="dropdown-item" href="profile.html">
+                                    <i class="align-middle me-1" data-feather="user"></i> 
+                                    Profile
+                                </a>
+                                <a class="dropdown-item" href="change-password.html">
+                                    <i class="align-middle me-1" data-feather="lock"></i> 
+                                    Change Password
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="authentication.html">
+                                    <i class="align-middle me-1" data-feather="settings"></i> 
+                                    Authentication
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="logout.html">
+                                    <i class="align-middle me-1" data-feather="log-out"></i> 
+                                    Log out
+                                </a>
+                            </div>
+                        </li>
+					</ul>
+				</div>
+			</nav>
+
+			<main class="content">
+				<div class="container-fluid p-0">
+					<div class="card mb-0 d-xl-block d-none">
+						<div class="card-body">
+							<a href="" class="text-dull">TradePro > </a>
+							<a href="" class="theme-color font-bold">View Trader Signals</a>
+						</div>
+					</div>
+					<div class="card grey-card mb-0">
+						<div class="card-body">
+							<div class="row">
+								<div class="col-xl-3 col-lg-3 col-7">
+									<div class="form-group has-search">
+										<span class="fa fa-search form-control-feedback">
+											<img src="img/uploads/search-icon.svg" alt="" class="img-fluid">
+										</span>
+										<input type="text" class="form-control" placeholder="Search...">
+									</div>
+								</div>
+								<div class="col-xl-9 col-lg-9 col-5 text-end">
+									<div class="dropdown">
+										<button class="btn btn-white dropdown-toggle" type="button"
+											id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+											Export Data
+										</button>
+										<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+											<li><a class="dropdown-item" href="#">PDF</a></li>
+											<li><a class="dropdown-item" href="#">XLS</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card mb-0 card-light-grey">
+						<div class="card-body mob-pad-0">
+							<div class="table-responsive">
+								<table class="table table-striped">
+									<thead class="bg-white">
+										<tr>
+											<th scope="col">
+
+											</th>
+											<th scope="col">
+												Date
+												<img src="img/table-arrow.svg" alt="" class="img-fluid">
+											</th>
+											<th scope="col">
+												Signal From
+												<img src="img/table-arrow.svg" alt="" class="img-fluid">
+											</th>
+											<th scope="col" class="text-center">
+												Exchange
+												<img src="img/table-arrow.svg" alt="" class="img-fluid">
+											</th>
+											<th scope="col" class="text-center">
+												Market
+												<img src="img/table-arrow.svg" alt="" class="img-fluid">
+											</th>
+											<th scope="col" class="text-center">
+												Execution
+												<img src="img/table-arrow.svg" alt="" class="img-fluid">
+											</th>
+											<th scope="col" class="text-center">
+												Trade
+												<img src="img/table-arrow.svg" alt="" class="img-fluid">
+											</th>
+											<th scope="col" class="text-center">
+												Open Price
+												<img src="img/table-arrow.svg" alt="" class="img-fluid">
+											</th>
+											<th scope="col" class="text-center">
+												Stop Loss
+												<img src="img/table-arrow.svg" alt="" class="img-fluid">
+											</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td class="call-row">
+												<img src="img/uploads/plus.svg" alt="" class="img-fluid">
+												<div class="collapse-row">
+													<p><strong>Take Profit 1:</strong> 0.00</p>
+													<p><strong>Take Profit 2:</strong> 0.00</p>
+													<p><strong>Take Profit 3:</strong> 0.00</span>
+													<p class="mb-0"><strong>Take Profit 4:</strong> 0.00</span>
+												</div>
+											</td>
+											<td>
+												4/4/2021
+											</td>
+											<td>
+												Signal Provider
+											</td>
+											<td>
+												Universal
+											</td>
+											<td>
+												Future
+											</td>
+											<td>
+												Limit
+											</td>
+											<td>
+												ETHUSDT
+											</td>
+											<td>
+												1899.00
+											</td>
+											<td>
+												1850.00
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<a href="">
+													<img src="img/uploads/plus.svg" alt="" class="img-fluid">
+												</a>
+											</td>
+											<td>
+												4/4/2021
+											</td>
+											<td>
+												Signal Provider
+											</td>
+											<td>
+												Universal
+											</td>
+											<td>
+												Future
+											</td>
+											<td>
+												Limit
+											</td>
+											<td>
+												ETHUSDT
+											</td>
+											<td>
+												1899.00
+											</td>
+											<td>
+												1850.00
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<a href="">
+													<img src="img/uploads/plus.svg" alt="" class="img-fluid">
+												</a>
+											</td>
+											<td>
+												4/4/2021
+											</td>
+											<td>
+												Signal Provider
+											</td>
+											<td>
+												Universal
+											</td>
+											<td>
+												Future
+											</td>
+											<td>
+												Limit
+											</td>
+											<td>
+												ETHUSDT
+											</td>
+											<td>
+												1899.00
+											</td>
+											<td>
+												1850.00
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<a href="">
+													<img src="img/uploads/plus.svg" alt="" class="img-fluid">
+												</a>
+											</td>
+											<td>
+												4/4/2021
+											</td>
+											<td>
+												Signal Provider
+											</td>
+											<td>
+												Universal
+											</td>
+											<td>
+												Future
+											</td>
+											<td>
+												Limit
+											</td>
+											<td>
+												ETHUSDT
+											</td>
+											<td>
+												1899.00
+											</td>
+											<td>
+												1850.00
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<a href="">
+													<img src="img/uploads/plus.svg" alt="" class="img-fluid">
+												</a>
+											</td>
+											<td>
+												4/4/2021
+											</td>
+											<td>
+												Signal Provider
+											</td>
+											<td>
+												Universal
+											</td>
+											<td>
+												Future
+											</td>
+											<td>
+												Limit
+											</td>
+											<td>
+												ETHUSDT
+											</td>
+											<td>
+												1899.00
+											</td>
+											<td>
+												1850.00
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<a href="">
+													<img src="img/uploads/plus.svg" alt="" class="img-fluid">
+												</a>
+											</td>
+											<td>
+												4/4/2021
+											</td>
+											<td>
+												Signal Provider
+											</td>
+											<td>
+												Universal
+											</td>
+											<td>
+												Future
+											</td>
+											<td>
+												Limit
+											</td>
+											<td>
+												ETHUSDT
+											</td>
+											<td>
+												1899.00
+											</td>
+											<td>
+												1850.00
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<a href="">
+													<img src="img/uploads/plus.svg" alt="" class="img-fluid">
+												</a>
+											</td>
+											<td>
+												4/4/2021
+											</td>
+											<td>
+												Signal Provider
+											</td>
+											<td>
+												Universal
+											</td>
+											<td>
+												Future
+											</td>
+											<td>
+												Limit
+											</td>
+											<td>
+												ETHUSDT
+											</td>
+											<td>
+												1899.00
+											</td>
+											<td>
+												1850.00
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<a href="">
+													<img src="img/uploads/plus.svg" alt="" class="img-fluid">
+												</a>
+											</td>
+											<td>
+												4/4/2021
+											</td>
+											<td>
+												Signal Provider
+											</td>
+											<td>
+												Universal
+											</td>
+											<td>
+												Future
+											</td>
+											<td>
+												Limit
+											</td>
+											<td>
+												ETHUSDT
+											</td>
+											<td>
+												1899.00
+											</td>
+											<td>
+												1850.00
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<a href="">
+													<img src="img/uploads/plus.svg" alt="" class="img-fluid">
+												</a>
+											</td>
+											<td>
+												4/4/2021
+											</td>
+											<td>
+												Signal Provider
+											</td>
+											<td>
+												Universal
+											</td>
+											<td>
+												Future
+											</td>
+											<td>
+												Limit
+											</td>
+											<td>
+												ETHUSDT
+											</td>
+											<td>
+												1899.00
+											</td>
+											<td>
+												1850.00
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<div class="row mt-4">
+								<div class="col-xl-3 col-lg-3 col-12 my-auto">
+									<p class="mb-0 d-none d-sm-block">Showing 1 to 10 of 57 entries</p>
+								</div>
+								<div class="col-xl-9 col-lg-9 col-12 text-end mob-mt-3">
+									<div class="btn-group">
+										<a href="#" class="btn btn-light">Previous</a>
+										<a href="#" class="btn btn-light active">1</a>
+										<a href="#" class="btn btn-light">2</a>
+										<a href="#" class="btn btn-light">3</a>
+										<a href="#" class="btn btn-light">4</a>
+										<a href="#" class="btn btn-light">5</a>
+										<a href="#" class="btn btn-light">Next</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</main>
+		</div>
+	</div>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/app.js"></script>
+
+	<script>
+		$(document).ready(function () {
+			$('.collapse-row').hide();
+			$('.sub-menu ul').hide();
+			$(".sub-menu a").click(function () {
+				$(this).parent(".sub-menu").children("ul").slideToggle("100");
+				$(this).find(".right").toggleClass("fa-caret-up fa-caret-down");
+			});
+
+			$(".sub-menu").click(function () {
+				$(this).children('img.menu-icon ').toggleClass('rotate-180');
+			});
+
+			$('.sub-menu a').each(function (i) {
+				if ($(this).is('.active')) {
+					$(this).parent(".sub-menu").children("ul").slideToggle("100");
+				};
+			});
+
+			$('.call-row').click(function () {
+				$('.collapse-row').slideToggle("500");
+			})
+		});
+
+	</script>
+
+</body>
+
+</html>

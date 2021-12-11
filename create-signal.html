@@ -1,0 +1,983 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="author" content="TraderPro">
+	<meta name="keywords"
+		content="Bitcoin, Cryptocurrency, Copy Trading, Trading Alert, Trading Signal, Algo Trading, Algo Trade, Signal Trade, Auto Trade, Social Trading, Trader Pro, Traderpro, Cryptocurrency market, Telegram Signals, professional traders, why trade alone, trade with professionals, one trade terminal for all your crypto needs, crypto currencies, digital assets, digital asset">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="shortcut icon" href="img/icons/icon-48x48.png" />
+
+	<link rel="canonical" href="https://demo-basic.adminkit.io/" />
+
+	<title>TraderPro | Favorites</title>
+
+	<link href="css/app.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/custom.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+	<style>
+		.accordion-button {
+			background-color: transparent !important;
+			box-shadow: none !important;
+			border: 0px !important;
+		}
+
+		.accordion-button:focus {
+			box-shadow: none !important;
+			border: 0px !important;
+		}
+
+		.dropdown-toggle::after {
+			display: none;
+		}
+
+		.join-tabs-ul {
+			display: block;
+			border: 0px;
+		}
+
+		.form-select:focus,
+		.form-control:focus {
+			box-shadow: none !important;
+		}
+
+		.btn-success {
+			background-color: #6EAF0F !important;
+		}
+
+		.btn-primary {
+			background-color: #2B5468 !important;
+		}
+
+		.table>tbody>tr>td,
+		.table>tbody>tr>th {
+			min-width: 110px !important;
+			text-align: center !important;
+		}
+
+		.table>tbody>tr>td,
+		.table>tbody>tr>th {
+			text-align: center !important;
+		}
+
+		.table>tbody>tr>td:first-child,
+		.table>tbody>tr>th:first-child {
+			text-align: left !important;
+			padding-right: 25px;
+		}
+
+		.dot-green {
+			display: inline-block;
+			width: 10px;
+			height: 10px;
+			background-color: #D6DF22;
+			border-radius: 50%;
+		}
+
+		.dot-red {
+			display: inline-block;
+			width: 10px;
+			height: 10px;
+			background-color: #D9534F;
+			border-radius: 50%;
+		}
+
+		td,
+		th {
+			height: 40px !important;
+		}
+
+		.accordion-item {
+			position: relative;
+			height: 100%;
+		}
+
+		.text-success {
+			color: #6EAF0F !important;
+		}
+
+		@media screen and (min-width:300px) and (max-width: 415px) {
+
+			label.font-13 {
+				font-size: 16px !important;
+			}
+		}
+	</style>
+
+</head>
+
+<body>
+
+	<!-- Modal -->
+	<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Trade Status</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<div class="row">
+						<div class="col-xl-9 col-lg-9 col-6">
+							<h4 class="mb-0">XLMUSDT</h4>
+							<p class="text-muted mt-3 mb-0">Amount</p>
+							<p class="font-18">1,55,440 USDT</p>
+						</div>
+						<div class="col-xl-3 col-lg-3 col-6">
+							<p class="mb-0 text-center">Exchange</p>
+						</div>
+					</div>
+					<div class="row mt-4">
+						<div class="col-xl-12 col-lg-12 col-12">
+							<div class="table-responsive">
+								<table class="table">
+									<thead>
+										<tr>
+											<th scope="col" class="text-start">Type</th>
+											<th scope="col" class="text-center">Price</th>
+											<th scope="col" class="text-center">Quantity</th>
+											<th scope="col" class="text-center">&nbsp;</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td class="text-start">
+												<span class="dot-green"></span>
+												Buy
+											</td>
+											<td>0.00000772</td>
+											<td>25%</td>
+											<td>
+												<a href=""><img src="img/edit.svg" alt="" class="img-fluid"></a>
+											</td>
+										</tr>
+										<tr>
+											<td class="text-start">
+												<span class="dot-red"></span>
+												Stop Loss
+											</td>
+											<td>0.00000772</td>
+											<td>25%</td>
+											<td>
+												<a href=""><img src="img/edit.svg" alt="" class="img-fluid"></a>
+											</td>
+										</tr>
+										<tr>
+											<td class="text-start">
+												<span class="dot-green"></span>
+												Take Profit 1
+											</td>
+											<td>0.00000772</td>
+											<td>25%</td>
+											<td>
+												<a href=""><img src="img/edit.svg" alt="" class="img-fluid"></a>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+					<div class="row my-lg-3 mob-mt-3">
+						<div class="col-xl-12 col-lg-12 col-12 text-center">
+							<button class="btn btn-primary">Create Trade</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="wrapper">
+		<nav id="sidebar" class="sidebar js-sidebar">
+			<div class="sidebar-content js-simplebar">
+				<a class="sidebar-brand" href="index.html">
+					<span class="align-middle">
+						<img src="img/logo.svg" alt="" class="img-fluid logo">
+					</span>
+				</a>
+
+				<div class="scrollBox">
+					<nav>
+						<ul class="mt-5">
+							<li>
+								<a href="index.html">
+									<img src="img/favourite-icon-dark.svg" alt="" class="img-fluid menu-icon">
+									Favourites
+								</a>
+							</li>
+							<li class="sub-menu">
+								<a href="javascript:void(0);">
+									<img src="img/conpytrading-icon-dark.svg" alt="" class="img-fluid menu-icon">
+									Copy Trading
+									<span class="float-right">
+										<img src="img/uploads/arrow-down.svg" alt="" class="img-fluid">
+									</span>
+								</a>
+								<ul>
+									<li><a href='join-copy-trader.html'>Join as Copy Trader</a></li>
+									<li><a href='viewcopy-trader-list.html'>View Copy Traders</a></li>
+									<li><a href='viewcopytrader-signal.html'>View Copy Signal</a></li>
+								</ul>
+							</li>
+							<li class="sub-menu">
+								<a href="javascript:void(0);" class="active">
+									<img src="img/signalprovider-icon-dark.svg" alt="" class="img-fluid menu-icon">
+									Signal Trading
+									<span class="float-right">
+										<img src="img/uploads/arrow-down.svg" alt="" class="img-fluid">
+									</span>
+								</a>
+								<ul>
+									<li><a href='join-signal-trader.html'>Join as Signal Provider</a></li>
+									<li><a href="view-signal-provider.html">View Signal Provider</a></li>
+									<li><a href="view-provider-signal.html">View Provider Signal</a></li>
+									<li><a class="active" href="create-signal.html">Create New Signal</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="price-comparison.html">
+									<img src="img/pricecomparison-icon-dark.svg" alt="" class="img-fluid menu-icon">
+									Price Comparison
+								</a>
+							</li>
+							<li>
+								<a href="trade-terminal.html">
+									<img src="img/tradeterminal-icon-dark.svg" alt="" class="img-fluid menu-icon">
+									Trade Terminal
+								</a>
+							</li>
+							<li>
+								<a href="portfolio-performance.html">
+									<img src="img/portfolioperformance-icon-dark.svg" alt=""
+										class="img-fluid menu-icon">
+									Portfolio Performance
+								</a>
+							</li>
+							<li class="sub-menu">
+								<a href="javascript:void(0);">
+									<img src="img/reports.svg" alt="" class="img-fluid menu-icon">
+									Reports
+									<span class="float-right">
+										<img src="img/uploads/arrow-down.svg" alt="" class="img-fluid">
+									</span>
+								</a>
+								<ul>
+									<li><a href="trade-signals.html">Trade Signals</a></li>
+									<li><a href="my-trades.html">My Trades</a></li>
+								</ul>
+							</li>
+							<li class="sub-menu">
+								<a href="javascript:void(0);">
+									<img src="img/exchangeaccount-icon-dark.svg" alt="" class="img-fluid menu-icon">
+									Exchange Account
+									<span class="float-right">
+										<img src="img/uploads/arrow-down.svg" alt="" class="img-fluid">
+									</span>
+								</a>
+								<ul>
+									<li><a href="exchange-account.html">Update Account Details</a></li>
+								</ul>
+							</li>
+						</ul>
+					</nav>
+				</div>
+
+				<!-- <p class="text-white ps-4 mt-5">
+					TraderPro v1.0
+				</p> -->
+			</div>
+		</nav>
+
+		<div class="main">
+			<nav class="navbar navbar-expand navbar-light navbar-bg">
+				<a class="sidebar-toggle js-sidebar-toggle">
+					<i class="hamburger align-self-center"></i>
+				</a>
+				<div class="form-group has-search search-main-bar d-none d-xl-block py-3">
+					<span class="fa fa-search form-control-feedback">
+						<img src="img/uploads/search-icon.svg" alt="" class="img-fluid">
+					</span>
+					<input type="text" class="form-control text-center" placeholder="Search TraderPro">
+				</div>
+				<div class="navbar-collapse collapse">
+					<ul class="navbar-nav navbar-align">
+						<li class="nav-item dropdown">
+							<a class="nav-icon dropdown-toggle" href="#" id="alertsDropdown" data-bs-toggle="dropdown">
+								<div class="position-relative">
+									<img src="img/uploads/notification.svg" alt="" class="img-fluid">
+									<span class="indicator">4</span>
+								</div>
+							</a>
+							<div class="dropdown-menu dropdown-menu-lg dropdown-menu-end py-0"
+								aria-labelledby="alertsDropdown">
+								<div class="dropdown-menu-header">
+									4 New Notifications
+								</div>
+								<div class="list-group">
+									<a href="#" class="list-group-item">
+										<div class="row g-0 align-items-center">
+											<div class="col-2">
+												<i class="text-danger" data-feather="alert-circle"></i>
+											</div>
+											<div class="col-10">
+												<div class="text-dark">Update completed</div>
+												<div class="text-muted small mt-1">Restart server 12 to complete the
+													update.</div>
+												<div class="text-muted small mt-1">30m ago</div>
+											</div>
+										</div>
+									</a>
+									<a href="#" class="list-group-item">
+										<div class="row g-0 align-items-center">
+											<div class="col-2">
+												<i class="text-warning" data-feather="bell"></i>
+											</div>
+											<div class="col-10">
+												<div class="text-dark">Lorem ipsum</div>
+												<div class="text-muted small mt-1">Aliquam ex eros, imperdiet vulputate
+													hendrerit et.</div>
+												<div class="text-muted small mt-1">2h ago</div>
+											</div>
+										</div>
+									</a>
+									<a href="#" class="list-group-item">
+										<div class="row g-0 align-items-center">
+											<div class="col-2">
+												<i class="text-primary" data-feather="home"></i>
+											</div>
+											<div class="col-10">
+												<div class="text-dark">Login from 192.186.1.8</div>
+												<div class="text-muted small mt-1">5h ago</div>
+											</div>
+										</div>
+									</a>
+									<a href="#" class="list-group-item">
+										<div class="row g-0 align-items-center">
+											<div class="col-2">
+												<i class="text-success" data-feather="user-plus"></i>
+											</div>
+											<div class="col-10">
+												<div class="text-dark">New connection</div>
+												<div class="text-muted small mt-1">Christina accepted your request.
+												</div>
+												<div class="text-muted small mt-1">14h ago</div>
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class="dropdown-menu-footer">
+									<a href="#" class="text-muted">Show all notifications</a>
+								</div>
+							</div>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-icon dropdown-toggle" href="#" id="messagesDropdown"
+								data-bs-toggle="dropdown">
+								<div class="position-relative">
+									<img src="img/uploads/message.svg" alt="" class="img-fluid">
+								</div>
+							</a>
+							<div class="dropdown-menu dropdown-menu-lg dropdown-menu-end py-0"
+								aria-labelledby="messagesDropdown">
+								<div class="dropdown-menu-header">
+									<div class="position-relative">
+										4 New Messages
+									</div>
+								</div>
+								<div class="list-group">
+									<a href="#" class="list-group-item">
+										<div class="row g-0 align-items-center">
+											<div class="col-2">
+												<img src="img/avatars/avatar-5.jpg"
+													class="avatar img-fluid rounded-circle" alt="Vanessa Tucker">
+											</div>
+											<div class="col-10 ps-2">
+												<div class="text-dark">Vanessa Tucker</div>
+												<div class="text-muted small mt-1">Nam pretium turpis et arcu. Duis arcu
+													tortor.</div>
+												<div class="text-muted small mt-1">15m ago</div>
+											</div>
+										</div>
+									</a>
+									<a href="#" class="list-group-item">
+										<div class="row g-0 align-items-center">
+											<div class="col-2">
+												<img src="img/avatars/avatar-2.jpg"
+													class="avatar img-fluid rounded-circle" alt="William Harris">
+											</div>
+											<div class="col-10 ps-2">
+												<div class="text-dark">William Harris</div>
+												<div class="text-muted small mt-1">Curabitur ligula sapien euismod
+													vitae.</div>
+												<div class="text-muted small mt-1">2h ago</div>
+											</div>
+										</div>
+									</a>
+									<a href="#" class="list-group-item">
+										<div class="row g-0 align-items-center">
+											<div class="col-2">
+												<img src="img/avatars/avatar-4.jpg"
+													class="avatar img-fluid rounded-circle" alt="Christina Mason">
+											</div>
+											<div class="col-10 ps-2">
+												<div class="text-dark">Christina Mason</div>
+												<div class="text-muted small mt-1">Pellentesque auctor neque nec urna.
+												</div>
+												<div class="text-muted small mt-1">4h ago</div>
+											</div>
+										</div>
+									</a>
+									<a href="#" class="list-group-item">
+										<div class="row g-0 align-items-center">
+											<div class="col-2">
+												<img src="img/avatars/avatar-3.jpg"
+													class="avatar img-fluid rounded-circle" alt="Sharon Lessman">
+											</div>
+											<div class="col-10 ps-2">
+												<div class="text-dark">Sharon Lessman</div>
+												<div class="text-muted small mt-1">Aenean tellus metus, bibendum sed,
+													posuere ac, mattis non.</div>
+												<div class="text-muted small mt-1">5h ago</div>
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class="dropdown-menu-footer">
+									<a href="#" class="text-muted">Show all messages</a>
+								</div>
+							</div>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+								<img src="img/uploads/user.svg" class="img-fluid" alt="User pic" />
+							</a>
+							<div class="dropdown-menu dropdown-menu-end">
+								<a class="dropdown-item" href="profile.html">
+									<i class="align-middle me-1" data-feather="user"></i>
+									Profile
+								</a>
+								<a class="dropdown-item" href="change-password.html">
+									<i class="align-middle me-1" data-feather="lock"></i>
+									Change Password
+								</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="authentication.html">
+									<i class="align-middle me-1" data-feather="settings"></i>
+									Authentication
+								</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="logout.html">
+									<i class="align-middle me-1" data-feather="log-out"></i>
+									Log out
+								</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</nav>
+
+			<main class="content">
+				<div class="container-fluid p-0">
+					<div class="card">
+						<div class="card-body">
+							<img src="img/big-chart.svg" alt="" class="img-fluid">
+						</div>
+					</div>
+					<div class="card">
+						<div class="card-body">
+							<div class="accordion" id="accordionExample">
+								<div class="row">
+									<div class="col-xl-6 col-lg-6 col-12">
+										<div class="accordion-item">
+											<h1 class="accordion-header mb-0 border px-4 py-2" id="headingOne">
+												<div class="row">
+													<div class="col-xl-12 col-lg-12 col-12">
+														<button
+															class="btn accordion-button px-0 font-18 font-bold theme-color w-100 text-start"
+															type="button" data-bs-toggle="collapse"
+															data-bs-target="#collapseOne" aria-expanded="true"
+															aria-controls="collapseOne">
+															<strong class="text-success">Buy</strong>
+														</button>
+													</div>
+												</div>
+											</h1>
+											<div id="collapseOne" class="accordion-collapse collapse"
+												aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+												<div class="accordion-body">
+													<div class="row">
+														<div
+															class="col-xl-4 col-lg-4 col-12 offset-xl-8 offset-lg-8 text-center">
+															<div class="dropdown border">
+																<button class="btn btn-white dropdown-toggle"
+																	type="button" id="dropdownMenuButton1"
+																	data-bs-toggle="dropdown" aria-expanded="false">
+																	Exchange
+																	<img src="images/arrow-icon.png" alt=""
+																		class="img-fluid">
+																</button>
+																<ul class="dropdown-menu"
+																	aria-labelledby="dropdownMenuButton1">
+																	<li><a class="dropdown-item" href="#">PDF</a></li>
+																	<li><a class="dropdown-item" href="#">XLS</a></li>
+																</ul>
+															</div>
+														</div>
+													</div>
+													<div class="row pt-4">
+														<div class="col-xl-12 col-lg-12 col-12">
+															<ul class="nav nav-tabs join-tabs-ul" id="myTab"
+																role="tablist">
+																<li class="nav-item" role="presentation">
+																	<button class="nav-link active" id="frontend-tab"
+																		data-bs-toggle="tab" data-bs-target="#frontend"
+																		type="button" role="tab"
+																		aria-controls="frontend"
+																		aria-selected="true">Buy Now</button>
+																</li>
+																<li class="nav-item" role="presentation">
+																	<button class="nav-link" id="backend-tab"
+																		data-bs-toggle="tab" data-bs-target="#backend"
+																		type="button" role="tab" aria-controls="backend"
+																		aria-selected="false">Update Existing</button>
+																</li>
+															</ul>
+															<div class="tab-content pt-4" id="myTabContent">
+																<div class="tab-pane fade show active" id="frontend"
+																	role="tabpanel" aria-labelledby="frontend-tab">
+																	<div class="row mt-4">
+																		<div class="col-xl-12 col-lg-12 col-12">
+																			<div class="row">
+																				<div
+																					class="col-xl-3 col-lg-3 col-12 my-auto">
+																					<label for=""
+																						class="font-13">Trading Symbol
+																						*</label>
+																				</div>
+																				<div
+																					class="col-xl-9 col-lg-9 col-12 mob-mt-3">
+																					<select class="form-select"
+																						aria-label="Default select example">
+																						<option selected>Select Trading
+																							Symbol
+																						</option>
+																						<option value="1">One</option>
+																						<option value="2">Two</option>
+																						<option value="3">Three</option>
+																					</select>
+																				</div>
+																			</div>
+																			<div class="row mt-4">
+																				<div
+																					class="col-xl-3 col-lg-3 col-12 my-auto">
+																					<label for="" class="font-13">Market
+																						Type *</label>
+																				</div>
+																				<div
+																					class="col-xl-9 col-lg-9 col-12 mob-mt-3">
+																					<select class="form-select"
+																						aria-label="Default select example">
+																						<option selected>Spot Market
+																						</option>
+																						<option value="1">One</option>
+																						<option value="2">Two</option>
+																						<option value="3">Three</option>
+																					</select>
+																				</div>
+																			</div>
+																			<div class="row mt-4">
+																				<div
+																					class="col-xl-3 col-lg-3 col-12 my-auto">
+																					<label for=""
+																						class="font-13">Position
+																						*</label>
+																				</div>
+																				<div
+																					class="col-xl-9 col-lg-9 col-12 mob-mt-3">
+																					<select class="form-select"
+																						aria-label="Default select example">
+																						<option selected>Long / Short
+																						</option>
+																						<option value="1">One</option>
+																						<option value="2">Two</option>
+																						<option value="3">Three</option>
+																					</select>
+																				</div>
+																			</div>
+																			<div class="row mt-4">
+																				<div class="col-xl-12 col-lg-12 col-12">
+																					<label for=""
+																						class="font-13">Execution</label>
+																				</div>
+																			</div>
+																			<div class="row mt-2">
+																				<div
+																					class="col-xl-12 col-lg-12 col-12 mob-mt-3">
+																					<div class="input-group">
+																						<span
+																							class="input-group-text p-0 border-0 bg-primary"
+																							id="basic-addon1">
+																							<select class="form-select"
+																								aria-label="Default select example">
+																								<option selected>Limit
+																								</option>
+																								<option value="1">One
+																								</option>
+																								<option value="2">Two
+																								</option>
+																								<option value="3">Three
+																								</option>
+																							</select>
+																						</span>
+																						<input type="text"
+																							class="form-control"
+																							aria-describedby="basic-addon1"
+																							placeholder="Buy Price">
+																					</div>
+																				</div>
+																			</div>
+																			<div class="row mt-4">
+																				<div
+																					class="col-xl-3 col-lg-3 col-12 pt-2">
+																					<label for=""
+																						class="font-13">Investment
+																						*</label>
+																				</div>
+																				<div
+																					class="col-xl-9 col-lg-9 col-12 mob-mt-3">
+																					<input type="text"
+																						class="form-control"
+																						placeholder="USDT / USD">
+																					<div
+																						class="form-text mt-3 text-danger">
+																						(Minimum $35)
+																					</div>
+																				</div>
+																			</div>
+																			<div class="row mt-4 pb-4">
+																				<div
+																					class="col-xl-12 col-lg-12 col-12 mob-mt-3">
+																					<div class="d-grid gap-2">
+																						<button
+																							class="btn btn-success">Add
+																							Buy
+																							Price</button>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+																<div class="tab-pane fade" id="backend" role="tabpanel"
+																	aria-labelledby="backend-tab">
+																	<div class="row mt-4">
+																		<div class="col-xl-12 col-lg-12 col-12">
+																			<div class="row">
+																				<div
+																					class="col-xl-3 col-lg-3 col-12 my-auto">
+																					<label for="" class="font-13">Order
+																						ID*</label>
+																				</div>
+																				<div
+																					class="col-xl-9 col-lg-9 col-12 mob-mt-3">
+																					<select class="form-select"
+																						aria-label="Default select example">
+																						<option selected>Order ID
+																						</option>
+																						<option value="1">One</option>
+																						<option value="2">Two</option>
+																						<option value="3">Three</option>
+																					</select>
+																				</div>
+																			</div>
+																			<div class="row mt-4">
+																				<div
+																					class="col-xl-3 col-lg-3 col-12 my-auto">
+																					<label for=""
+																						class="font-13">Trading Symbol
+																						*</label>
+																				</div>
+																				<div
+																					class="col-xl-9 col-lg-9 col-12 mob-mt-3">
+																					<select class="form-select"
+																						aria-label="Default select example">
+																						<option selected>Select Trading
+																							Symbol
+																						</option>
+																						<option value="1">One</option>
+																						<option value="2">Two</option>
+																						<option value="3">Three</option>
+																					</select>
+																				</div>
+																			</div>
+																			<div class="row mt-4">
+																				<div
+																					class="col-xl-3 col-lg-3 col-12 my-auto">
+																					<label for="" class="font-13">Market
+																						Type *</label>
+																				</div>
+																				<div
+																					class="col-xl-9 col-lg-9 col-12 mob-mt-3">
+																					<select class="form-select"
+																						aria-label="Default select example">
+																						<option selected>Spot Market
+																						</option>
+																						<option value="1">One</option>
+																						<option value="2">Two</option>
+																						<option value="3">Three</option>
+																					</select>
+																				</div>
+																			</div>
+																			<div class="row mt-4">
+																				<div
+																					class="col-xl-3 col-lg-3 col-12 my-auto">
+																					<label for=""
+																						class="font-13">Position
+																						*</label>
+																				</div>
+																				<div
+																					class="col-xl-9 col-lg-9 col-12 mob-mt-3">
+																					<select class="form-select"
+																						aria-label="Default select example">
+																						<option selected>Long / Short
+																						</option>
+																						<option value="1">One</option>
+																						<option value="2">Two</option>
+																						<option value="3">Three</option>
+																					</select>
+																				</div>
+																			</div>
+																			<div class="row mt-4">
+																				<div class="col-xl-12 col-lg-12 col-12">
+																					<label for=""
+																						class="font-13">Execution
+																						*</label>
+																				</div>
+																			</div>
+																			<div class="row mt-2">
+																				<div
+																					class="col-xl-12 col-lg-12 col-12 mob-mt-3">
+																					<div class="input-group">
+																						<span
+																							class="input-group-text p-0 border-0 bg-primary"
+																							id="basic-addon1">
+																							<select class="form-select"
+																								aria-label="Default select example">
+																								<option selected>Limit
+																								</option>
+																								<option value="1">One
+																								</option>
+																								<option value="2">Two
+																								</option>
+																								<option value="3">Three
+																								</option>
+																							</select>
+																						</span>
+																						<input type="text"
+																							class="form-control"
+																							aria-describedby="basic-addon1"
+																							placeholder="Buy Price">
+																					</div>
+																				</div>
+																			</div>
+																			<div class="row mt-4">
+																				<div
+																					class="col-xl-3 col-lg-3 col-12 pt-2">
+																					<label for=""
+																						class="font-13">Investment
+																						*</label>
+																				</div>
+																				<div
+																					class="col-xl-9 col-lg-9 col-12 mob-mt-3">
+																					<input type="text"
+																						class="form-control"
+																						placeholder="USDT / USD">
+																					<div
+																						class="form-text mt-3 text-danger">
+																						(Minimum $35)
+																					</div>
+																				</div>
+																			</div>
+																			<div class="row mt-4 pb-4">
+																				<div
+																					class="col-xl-12 col-lg-12 col-12 mob-mt-3">
+																					<div class="d-grid gap-2">
+																						<button
+																							class="btn btn-success">Add
+																							Buy Price</button>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-xl-6 col-lg-6 col-12">
+										<div class="accordion-item">
+											<h1 class="accordion-header mb-0 border px-4 py-2" id="headingTwo">
+												<div class="row">
+													<div class="col-xl-12 col-lg-12 col-12">
+														<button
+															class="btn accordion-button px-0 font-18 font-bold theme-color w-100 text-start"
+															type="button" data-bs-toggle="collapse"
+															data-bs-target="#collapseTwo" aria-expanded="true"
+															aria-controls="collapseTwo">
+															<strong class="text-danger">Sell</strong>
+														</button>
+													</div>
+												</div>
+											</h1>
+											<div id="collapseTwo" class="accordion-collapse collapse"
+												aria-labelledby="headingTwo" data-bs-parent="#accordionExampleTwo">
+												<div class="accordion-body">
+													<div class="row pt-4">
+														<div class="col-xl-12 col-lg-12 col-12">
+															<ul class="nav nav-tabs join-tabs-ul red-border" id="myTab"
+																role="tablist">
+																<li class="nav-item" role="presentation">
+																	<button class="nav-link active" id="takeprofit-tab"
+																		data-bs-toggle="tab"
+																		data-bs-target="#takeprofit" type="button"
+																		role="tab" aria-controls="takeprofit"
+																		aria-selected="true">Stoploss</button>
+																</li>
+																<li class="nav-item" role="presentation">
+																	<button class="nav-link" id="stoploss-tab"
+																		data-bs-toggle="tab" data-bs-target="#stoploss"
+																		type="button" role="tab"
+																		aria-controls="stoploss"
+																		aria-selected="false">Take Profit</button>
+																</li>
+															</ul>
+															<div class="tab-content pt-4" id="myTabContent">
+																<div class="tab-pane fade show active" id="takeprofit"
+																	role="tabpanel" aria-labelledby="takeprofit-tab">
+																	<div class="row mt-4">
+																		<div class="col-xl-12 col-lg-12 col-12">
+																			<div class="row">
+																				<div class="col-xl-6 col-lg-6 col-12">
+																					<label class="mb-3">Stop-Loss Price
+																						*</label>
+																					<input type="text"
+																						class="form-control"
+																						placeholder="Enter Stop-Loss Price">
+																				</div>
+																				<div class="col-xl-6 col-lg-6 col-12">
+																					<label
+																						class="mb-3 mob-mt-3">Stop-Loss
+																						Quantity
+																						*</label>
+																					<input type="text"
+																						class="form-control"
+																						placeholder="Enter Stop-Loss Quantity">
+																				</div>
+																			</div>
+																			<div class="row mt-4 pb-4">
+																				<div
+																					class="col-xl-12 col-lg-12 col-12 mob-mt-3">
+																					<div class="d-grid gap-2">
+																						<button class="btn btn-danger"
+																							data-bs-toggle="modal"
+																							data-bs-target="#exampleModal">Add
+																							Stoploss</button>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+																<div class="tab-pane fade" id="stoploss" role="tabpanel"
+																	aria-labelledby="stoploss-tab">
+																	<div class="row mt-4">
+																		<div class="col-xl-12 col-lg-12 col-12">
+																			<div class="row">
+																				<div class="col-xl-6 col-lg-6 col-12">
+																					<label class="mb-3">Take Profit 1
+																						Price
+																						*</label>
+																					<input type="text"
+																						class="form-control"
+																						placeholder="Enter Take Profit Price">
+																				</div>
+																				<div class="col-xl-6 col-lg-6 col-12">
+																					<label class="mb-3 mob-mt-3">Take
+																						Profit 1
+																						Quantity
+																						*</label>
+																					<input type="text"
+																						class="form-control"
+																						placeholder="Enter Trade Quantity">
+																				</div>
+																			</div>
+																			<div class="row mt-4 pb-4">
+																				<div
+																					class="col-xl-12 col-lg-12 col-12 mob-mt-3">
+																					<div class="d-grid gap-2">
+																						<button class="btn btn-danger"
+																							data-bs-toggle="modal"
+																							data-bs-target="#exampleModal">Add
+																							Take
+																							Profit</button>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</main>
+		</div>
+	</div>
+
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/app.js"></script>
+
+	<script>
+		$(document).ready(function () {
+			$('.sub-menu ul').hide();
+			$(".sub-menu a").click(function () {
+				$(this).parent(".sub-menu").children("ul").slideToggle("100");
+				$(this).find(".right").toggleClass("fa-caret-up fa-caret-down");
+			});
+
+			$(".sub-menu").click(function () {
+				$(this).children('img.menu-icon ').toggleClass('rotate-180');
+			});
+
+			$('.sub-menu a').each(function (i) {
+				if ($(this).is('.active')) {
+					$(this).parent(".sub-menu").children("ul").slideToggle("100");
+				};
+			});
+		});
+	</script>
+</body>
+
+</html>

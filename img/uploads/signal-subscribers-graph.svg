@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="763" height="594" viewBox="0 0 763 594">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1.066" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1940d9"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+  </defs>
+  <g id="signal-subscribers-graph" transform="translate(-21613 -4483)">
+    <g id="signal-subscribers-graph-2" data-name="signal-subscribers-graph" transform="translate(21156 3475)">
+      <g id="Rectangle_265" data-name="Rectangle 265" transform="translate(457 1480)" fill="#fff" stroke="#dadada" stroke-width="1">
+        <rect width="763" height="122" stroke="none"/>
+        <rect x="0.5" y="0.5" width="762" height="121" fill="none"/>
+      </g>
+      <text id="Signals_Sent" data-name="Signals Sent" transform="translate(601 1579)" fill="#ababab" font-size="18" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Signals Sent</tspan></text>
+      <text id="Profit" transform="translate(1007 1579)" fill="#ababab" font-size="18" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Profit</tspan></text>
+      <text id="_2456" data-name="2456" transform="translate(591 1544)" fill="#464646" font-size="50" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">2456</tspan></text>
+      <text id="_56_" data-name="56%" transform="translate(980 1544)" fill="#6eaf0f" font-size="50" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">56%</tspan></text>
+      <line id="Line_24" data-name="Line 24" y2="93" transform="translate(838.5 1495.5)" fill="none" stroke="#dadada" stroke-width="1"/>
+      <g id="signal-subscribers-graph-3" data-name="signal-subscribers-graph">
+        <g id="signal-subscribers-graph-4" data-name="signal-subscribers-graph">
+          <g id="Image_8" data-name="Image 8" transform="translate(457 1008)" fill="#fff" stroke="#dadada" stroke-width="1">
+            <rect width="763" height="472" stroke="none"/>
+            <rect x="0.5" y="0.5" width="762" height="471" fill="none"/>
+          </g>
+          <text id="Signal_Subscribers" data-name="Signal Subscribers" transform="translate(485 1068)" fill="#2b5468" font-size="30" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Signal Subscribers</tspan></text>
+          <text id="_19945" data-name="19945" transform="translate(485 1133)" fill="#464646" font-size="50" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">19945</tspan></text>
+          <path id="Path_136" data-name="Path 136" d="M16.333,20.333H15V15H13.667M15,9.667h.013M27,15A12,12,0,1,1,15,3,12,12,0,0,1,27,15Z" transform="translate(1165 1041.5)" fill="none" stroke="#2b5468" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+          <text id="_0" data-name="0" transform="translate(485 1402)" fill="#7c828a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="31.07" y="13">0</tspan></text>
+          <text id="_250" data-name="250" transform="translate(485 1306)" fill="#7c828a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="18.132" y="13">250</tspan></text>
+          <text id="_500" data-name="500" transform="translate(485 1210)" fill="#7c828a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="18.132" y="13">500</tspan></text>
+          <text id="S" transform="translate(872.395 1437.767)" fill="#7c828a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="11.934" y="13">JUL</tspan></text>
+          <text id="S-2" data-name="S" transform="translate(1090.117 1437.767)" fill="#7c828a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="8.43" y="13">NOV</tspan></text>
+          <text id="S-3" data-name="S" transform="translate(1144.5 1437.767)" fill="#7c828a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="10.064" y="13">DEC</tspan></text>
+          <text id="S-4" data-name="S" transform="translate(813.836 1437.767)" fill="#7c828a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="10.27" y="13">JUN</tspan></text>
+          <text id="S-5" data-name="S" transform="translate(1031.557 1437.767)" fill="#7c828a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="9.64" y="13">OCT</tspan></text>
+          <text id="F" transform="translate(755.275 1437.767)" fill="#7c828a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="8.857" y="13">MAY</tspan></text>
+          <text id="F-2" data-name="F" transform="translate(972.996 1437.767)" fill="#7c828a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="11.438" y="13">SEP</tspan></text>
+          <text id="T" transform="translate(696.717 1437.767)" fill="#7c828a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="10.202" y="13">APR</tspan></text>
+          <text id="T-2" data-name="T" transform="translate(914.438 1437.767)" fill="#7c828a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="9.03" y="13">AUG</tspan></text>
+          <text id="W" transform="translate(642.66 1437.767)" fill="#7c828a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="5.922" y="13">MAR</tspan></text>
+          <text id="T-3" data-name="T" transform="translate(584.102 1437.767)" fill="#7c828a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="11.617" y="13">FEB</tspan></text>
+          <text id="M" transform="translate(525.541 1437.767)" fill="#7c828a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="10.668" y="13">JAN</tspan></text>
+        </g>
+        <path id="Area_2" d="M0,52.287S56.187,83.069,111.442,83.069,166.7,0,221.954,0,277.21,38.731,332.465,38.731c53.209,0,53.209,125.876,108.465,125.876s55.256-49.382,110.511-49.382,110.511,56.16,110.511,56.16v35.826H.931Z" transform="translate(530.047 1209.534)" opacity="0.3" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+    <text id="Subscribers_within_last_30_days_-_" data-name="Subscribers within last 30 days (=/- %)" transform="translate(22067 4597)" fill="#282828" font-size="16" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Subscribers within last 30 days (=/- %)</tspan></text>
+  </g>
+</svg>

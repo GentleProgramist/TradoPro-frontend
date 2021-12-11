@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="5" height="40" viewBox="0 0 5 40">
+  <g id="sub-menu-img" transform="translate(-36 -223)">
+    <line id="Line_26" data-name="Line 26" y2="40" transform="translate(38.5 223)" fill="none" stroke="#2b5468" stroke-width="1"/>
+    <g id="Ellipse_23" data-name="Ellipse 23" transform="translate(36 241)" fill="#2b5468" stroke="#fff" stroke-width="0.5">
+      <circle cx="2.5" cy="2.5" r="2.5" stroke="none"/>
+      <circle cx="2.5" cy="2.5" r="2.25" fill="none"/>
+    </g>
+  </g>
+</svg>
